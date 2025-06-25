@@ -1,11 +1,6 @@
 # Health
-primeiro projeetooo
+Como primeiro projeto publicado e já feito na minha vida, lhes apresento um projeto de clinica médica!
 
-olá mundo!
+usuário não precisa se deslocar da sua casa para ir até o local agendar uma consulta ou cirurgia
 
-teste de adição diretamente dentro do github site
-
-esse aqui acabei de fazer agora! 
-
-e esse aqui estou fazendo de teste para voltar para o vs code, aonde posso testar se está dando tudo certo!
-.....
+apenas acessando o site e fazendo tudo remotamente!
