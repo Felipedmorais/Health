@@ -1,0 +1,383 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    align-items: center;
+    display: flex;
+}
+.menu{
+display: flex;
+align-items: center;
+}
+nav ul, nav li{
+    list-style: none;
+margin: 0px;
+padding: 0px;}
+nav ul{
+    display: flex;
+}
+nav a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color:#727272;
+    text-transform: uppercase;
+}
+nav .active a, nav a:hover{
+    background-color: #39aae1;
+color: white;
+}
+#banner{
+    display: flex;
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+justify-content: center;}
+.headline{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+justify-content: center;}
+.options{
+    background-color: green;
+    height: 210px;
+    display: flex;
+}
+section .container{
+    flex-direction: column;
+}
+.headline h1{
+    font-size: 70px;
+    color: white;
+    text-shadow: 0px 2px 0px black;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+}
+.headline h2{
+    font-size: 22px;
+    color: white;
+    text-shadow: 0px 2px 0px black;
+    margin: 0px;
+    padding: 0px; 
+    width: 300px;
+    margin-top: 30px;
+}
+.banner1,
+.banner2,
+.banner3{
+    flex:1;
+    color: white;
+    padding: 20px;
+}
+.banner1{
+    background-color: #39aae1;
+}
+
+.banner2{
+background-color:#0079c7;
+}
+
+.banner3{
+background-color: #2b4c99;
+}
+.banner_title{
+font-size: 21px;
+}
+
+.banner_desc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.link{
+    border: solid 1px white;
+    text-decoration: none;   
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+.hours{ display: flex;
+justify-content:space-between; 
+border-bottom: 1px solid white;
+font-size: 15px;
+}
+#geral{
+    display:flex;
+    justify-content: center;
+}
+.last{
+    display: flex;
+    width: 990px;
+    justify-content: space-between;
+}
+#geral section{
+    flex: 2;
+}
+#geral aside{
+    flex: 1;
+}
+.widge_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widge_title_text{
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widge_line{
+    width: 50px;
+    height: 3px;
+    background-color: #36a9e1;
+    margin-top:10px ;
+}
+.square{
+    width: 140px;
+    height: 140px;
+    background-color: #36a9e1;
+margin: 20px;
+margin-bottom: 30px;}
+.widge_square{
+    display: flex;
+}
+.textwg{
+    font-weight: bold;
+}
+.linewg{
+border: solid 1px gray;
+}
+.contat span{
+    font-weight: bold;
+}
+.contat a {
+color: #0079c7;
+text-decoration: none;
+}
+.contat{
+    border-bottom: solid 1px black;
+    
+}
+article .news_data{
+display: flex;
+}
+article .postedat{
+ background-color: #2b4c99;  
+ font-size: 12px;
+ padding: 10px; 
+ color: aliceblue;
+}
+article .coments{
+    background-color: #39aae1;  
+    font-size: 12px;
+    padding: 10px; 
+    margin-left: 2px;
+    color: aliceblue;
+}
+article .triangle{
+    width: 0px;
+    height: 0px;
+    border-left: 0px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #2b4c99;
+}
+article .thumb img{
+width: 100%;
+height: auto;
+}
+article .thumb{
+    margin-top: 30px;
+}
+article .new-title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 23px;
+}
+article .resume{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+article a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right:15px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+}
+.footer_menu{
+    display: flex;
+    color: aliceblue;
+    flex: 1;
+}
+.menu1,.menu2, .menu3{
+    flex: 1;
+    padding: 20px;
+   
+}
+.menu1{
+background-color: #39aae1;
+}
+.menu2{
+background-color: #0079c7;
+}
+.menu3{
+background-color: #2b4c99;
+}
+.flexcolumn{
+    flex-direction: column;
+}
+
+.copyhight{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.linknew{
+    font-size: 21px;
+    text-decoration: none;
+color: white;
+}
+.descript{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.kom{
+    display: flex;
+}
+.kom1, .kom2, .kom3{
+    flex: 1;
+}
+.porra{
+    font-size: 23px;
+    color: white;
+    margin: 30px;
+    margin-left:0px ;
+    margin-bottom: 15px;
+}
+.caralho{
+    width: 50px;
+    height: 3px;
+    background-color: #36a9e1;
+}
+.lista1 p{
+    margin: 0px;
+    color: #727272;
+    font-size: 12px;
+}
+.lista1{
+    margin-top: 30px;
+}
+.description{
+    margin: 0px;
+    color: #727272;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.numero {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contatusx{
+ padding-right: 60px;
+}
+.emale{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+.submano{
+color: white;
+font-size: 14px;
+display: flex;
+}
+.submano .description{
+    color: white;
+    font-size: 14px;
+ padding-left: 10px;
+
+}
+.seta{
+ padding-top: 4px;
+}
+.years{
+    color: #0079c7;
+    font-size: 12px;
+    margin: 0px;
+    padding-left: 22px;
+    padding-top: 5px;
+}
+.years1{
+    color: #0079c7;
+    font-size: 12px;
+    padding-left: 22px;
+    margin-top: 0px ;
+}
+.description1{
+    color: white;
+    font-size: 14px;
+ padding-left: 10px;
+ margin: 0px;
+ padding-top: 20px;
+}
+.submano1{
+    color: #0079c7;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+.inke{
+    color:#727272 ;
+    text-decoration: none;
+}
+.kom3 .description{
+    color: #727272;
+}
+
+@media (max-width:600px){
+    .headline h1{
+        font-size: 55px;
+    }
+    .headline h2{
+        font-size: 17px;
+    }
+    .options{
+        height: auto;
+        flex-direction: column;
+    }
+    .last{
+        flex-direction: column;
+    }
+    #geral section{
+        padding: 20px;
+    }
+}
